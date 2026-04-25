@@ -77,6 +77,12 @@ body{font-family:'Outfit',sans-serif;background:var(--off);color:var(--text);ove
   letter-spacing:-1px;
   animation:fadeUp 0.8s 0.2s ease both;
 }
+
+.cat-icon img.cat-img{
+  width:20px;
+  height:20px;
+  object-fit:contain;
+}
 .hero h1 em{color:var(--gold);font-style:italic}
 .hero-sub{
   font-size:15px;color:rgba(255,255,255,0.55);
@@ -320,7 +326,9 @@ footer strong{color:var(--gold)}
 <!-- CATEGORY NAV -->
 <nav class="cat-section" id="catNav">
   <div class="cat-scroll">
-    <button class="cat-btn active" onclick="showCat('weddings',this)"><span class="cat-icon"></span>Weddings</button>
+    <button class="cat-btn active" onclick="showCat('weddings',this)"><span class="cat-icon">
+      <img src= "image4.png"  class="cat-icon>
+    </span>Weddings</button>
     <button class="cat-btn" onclick="showCat('graduation',this)"><span class="cat-icon">🎓</span>Graduation</button>
     <button class="cat-btn" onclick="showCat('portraits',this)"><span class="cat-icon">🧑‍🎨</span>Portraits</button>
     <button class="cat-btn" onclick="showCat('birthday',this)"><span class="cat-icon">🎂</span>Birthday</button>
